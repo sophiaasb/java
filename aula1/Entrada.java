@@ -12,7 +12,7 @@ public class Entrada {
 
         int idade = sc.nextInt();
         
-        System.out.println("Olá "+nome+ " sua idade é "+idade);
+        System.out.println("Olá, "+nome+ ". Sua idade é "+idade+ " anos.");
 
         sc.close();
     }

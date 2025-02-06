@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Entrada5 {
+public class Trabalho {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
@@ -10,7 +10,7 @@ public class Entrada5 {
         System.out.print("Digite o valor da distância: ");
         double distancia = sc.nextDouble();
 
-        double trabalho = forca*ddistancia;
+        double trabalho = forca*distancia;
 
         System.out.print("O resultado é: " +trabalho);
         sc.close();

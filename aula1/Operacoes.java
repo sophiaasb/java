@@ -1,4 +1,4 @@
-public class Numeros {
+public class Operacoes {
     
     public static void main(String[] args) {
         
@@ -9,10 +9,10 @@ public class Numeros {
         double multi = a*b;
         double div = a/b;
 
-        System.out.println(soma);
-        System.out.println(sub);
-        System.out.println(multi);
-        System.out.println(div);
+        System.out.println("Soma: " +soma);
+        System.out.println("Subtração: " +sub);
+        System.out.println("Multiplicação: " +multi);
+        System.out.println("Divisão: " +div);
 
     }
 }
