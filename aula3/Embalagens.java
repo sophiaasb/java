@@ -1,3 +1,4 @@
+package aula3;
 import java.util.Scanner;
 
 public class Embalagens {
@@ -13,7 +14,7 @@ public class Embalagens {
             System.out.println("2 - SACOLA PLÁSTICA");
             System.out.println("3 - EMBALAGEM DE VIDRO");
             System.out.println("4 - SAIR");
-            System.out.println("DIGITE A OPÇÃO: ");
+            System.out.print("DIGITE A OPÇÃO: ");
             opcao = sc.nextInt();
 
             switch(opcao) {
@@ -33,10 +34,7 @@ public class Embalagens {
                     System.out.println("Opção inválida. ");
                     break;
             }
+
         }
-
-        sc.close();
-
     }
 }
-
