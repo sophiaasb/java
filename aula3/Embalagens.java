@@ -1,36 +1,33 @@
 import java.util.Scanner;
 
-public class Menu {
+public class Embalagens {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
         int opcao = 0;
 
         while (opcao != 5) {
-            System.out.println("\n===MENU===");
-            System.out.println("1 - CADASTRAR");
-            System.out.println("2 - LISTAR");
-            System.out.println("3 - ALTERAR");
-            System.out.println("4 - REMOVER");
-            System.out.println("5 - SAIR");
+            System.out.println("\n=== MENU DE EMBALAGENS ===");
+            System.out.println("1 - CAIXA DE PAPELÃO");
+            System.out.println("2 - SACOLA PLÁSTICA");
+            System.out.println("3 - EMBALAGEM DE VIDRO");
+            System.out.println("4 - SAIR");
             System.out.println("DIGITE A OPÇÃO: ");
             opcao = sc.nextInt();
 
             switch(opcao) {
                 case 1:
-                    System.out.println("");
+                    System.out.println("Caixa de papelão: Ideal para transporte e armazenamento. ");
                     break;
                 case 2:
-                    System.out.println("");
+                    System.out.println("Sacola plástica: Leve e prática, mas pouco sustentável");
                     break;
                 case 3:
-                    System.out.println("");
+                    System.out.println("Embalagem de vidro: Resistente e reutilizável");
                     break;
                 case 4:
-                    System.out.println("");
-                    break;
-                case 5:
-                    System.out.println("");
+                    System.out.println("Saindo.....");
                     break;
                 default:
                     System.out.println("Opção inválida. ");
@@ -42,3 +39,4 @@ public class Menu {
 
     }
 }
+

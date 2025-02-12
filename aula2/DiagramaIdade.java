@@ -16,5 +16,7 @@ public class DiagramaIdade {
         } else if (idade >= 60 || idade > 60) {
             System.out.println("Você é idoso.");
         }
+
+        sc.close();
     }
 }
