@@ -15,7 +15,7 @@ public class ParesImpares {
         System.out.println("\nNúmeros pares de 52 a 100:");
     
         for (int i = 52; i <= 100; i += 2) {
-            System.out.print(i + ", ");
+            System.out.print(i+ ", ");
         }
 
         sc.close();
