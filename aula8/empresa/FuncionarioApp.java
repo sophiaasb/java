@@ -1,5 +1,4 @@
-package aula8;
-import Gerente;
+package empresa;
 
 public class FuncionarioApp {
     public static void main(String[] args) {

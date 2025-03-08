@@ -1,11 +1,12 @@
-package aula8;
+package veiculos;
+
 public class Veiculos {
     private String marca;
     private String modelo;
     private int ano;
 
     public Veiculos(String marca, String modelo, int ano) {
-        this.marca= marca;
+        this.marca = marca;
         this.modelo = modelo;
         this.ano = ano;
     }

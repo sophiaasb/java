@@ -1,4 +1,4 @@
-package aula8;
+package empresa;
 
 public class Gerente extends Funcionario {
     private double bonus;

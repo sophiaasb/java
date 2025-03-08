@@ -1,5 +1,7 @@
-package aula8;
+package veiculos;
+
 public class Moto extends Veiculos { 
+    private int cilindrada;
 
     public Moto (String marca, String modelo, int ano, int cilindrada) { 
         super(marca, modelo, ano); 
