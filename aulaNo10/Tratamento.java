@@ -11,8 +11,8 @@ public class Tratamento {
             System.out.print("Deseja dividir uma pizza de 10 fatias pra quantas pessoas?: ");
             divisor = sc.nextInt();
 
-            try{
-                divisao = 10 / divisor;
+            try {
+                int divisao = 10 / divisor;
             } catch(ArithmeticException e) {
                 System.out.println("Não foi Possivel Dividir!");
             } finally {
