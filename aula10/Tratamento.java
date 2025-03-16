@@ -12,7 +12,7 @@ public class Tratamento {
             divisor = sc.nextInt();
 
             try{
-                int divisao = 10 / divisor;
+                divisao = 10 / divisor;
             } catch(ArithmeticException e) {
                 System.out.println("Não foi Possivel Dividir!");
             } finally {
@@ -20,5 +20,6 @@ public class Tratamento {
             }
         }
 
+        sc.close();
     }
 }
