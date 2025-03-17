@@ -1,4 +1,4 @@
-package aula10;
+package aulano10;
 import java.util.Scanner;
 
 public class Tratamento {

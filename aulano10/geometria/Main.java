@@ -1,3 +1,5 @@
+package aulano10.geometria;
+
 public class Main {
     public static void main(String[] args) {
         Retangulo retangulo = new Retangulo(5, 3);

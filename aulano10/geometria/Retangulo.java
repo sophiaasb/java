@@ -1,3 +1,5 @@
+package aulano10.geometria;
+
 class Retangulo extends FormaGeometrica {
     private double comprimento;
     private double largura;

@@ -1,3 +1,4 @@
+package aulano10;
 import java.util.Scanner;
 
 public class Numero2 {
